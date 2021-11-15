@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/judul"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Cara Menggunakan Aplikasi Kantin Griya Nafans"/>
+    <ScrollView
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Bagaimana cara menggunakan aplikasi Kantin Griya Nafans ?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Pertama masuk terlebih dahulu dengan cara mengisi kolom Nama Pengguna dan Kata Sandi bagi pengguna yang sudah terdaftar."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana jika belum mempunyai akun ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Jika pengguna belum memiliki akun maka pengguna dapat melalukan pendaftaran dengan cara klik tombol Daftar. \nMasukkan Nama Pengguna , Email , No. Handphone , No. Kamar , Kata Sandi. Dengan ketentuan kata sandi minimal 6 karakter dan No. Handphone 11 digit. \nContoh :\nNama Pengguna : Reza Nisazka\nEmail		 : nisazkareza24@gmail.com\nNo. Handphone  : 089609953491\nNo. Kamar	  : 22\nKata Sandi	  :123456\nSetelah kolom terisi klik tombol Daftar."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara memesan makanan dan minuman ?"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Untuk pemesanan , pengguna klik menu makanan dan menu minuman satu persatu kemudian klik pesan maka otomatis pesanan akan masuk ke keranjang."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara memesan makanan yang sama lebih dari satu ?"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Untuk menentukan banyak makanan dan minuman yang sama lebih dari satu , tambahkan makanan dan minuman yang sama sebanyak jumlah yang ingin dipesan."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara untuk memesan menu yang sudah dimasukkan kedalam keranjang ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Klik keranjang untuk melihat pesanan dan total harga , jika sudah sesuai klik pesan maka pesanan akan diterima oleh admin dan jika ingin ganti pesanan klik kosongkan kemudian melakukan pesanan kembali."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara untuk mengetahui informasi profile akun ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Klik akun untuk melihat info akun yang sudah terdaftar seperti Nama Pengguna , Email , No. Handphone , No. Kamar."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara untuk mengubah kata sandi ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Klik tombol Ganti Kata Sandi pada menu akun untuk mengganti Kata Sandi yang sebelumnya. Isi Kata Sandi sebelum , Kata Sandi Baru , Konfirmasi Kata Sandi Baru kemudian klik Ok."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana jika lupa kata sandi ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Silahkan hubungi admin untuk mereset kata sandi."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara untuk keluar dari aplikasi ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Untuk keluar dari aplikasi , klik home kemudian klik keluar pada handphone maka akan terdapat pesan “Apakah anda ingin keluar?” jika ingin keluar pilih ya , jika tidak ingin keluar pilih tidak."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

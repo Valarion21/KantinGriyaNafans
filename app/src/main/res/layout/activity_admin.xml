@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin">
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:id="@+id/noorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. Pesanan"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pemesan"
+            android:paddingLeft="120dp"/>
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnBawah"
+        android:layout_below="@+id/info">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/btnBawah"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal|center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal|center_vertical">
+                <TextView
+                    android:id="@+id/txStat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Status : "
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/txStat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/txStat1"
+                    android:paddingTop="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/changeSt"
+                    android:text="Ubah Status"
+                    android:layout_toRightOf="@+id/txStat"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clear"
+                    android:layout_toRightOf="@+id/changeSt"
+                    android:text="Hapus"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_height="50dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/resetpass"
+                    android:text="Reset Kata Sandi"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

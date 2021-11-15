@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "13210898453",
+    "firebase_url": "https://kantin-griya-nafans.firebaseio.com",
+    "project_id": "kantin-griya-nafans",
+    "storage_bucket": "kantin-griya-nafans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13210898453:android:a604a9814fa91ae3",
+        "android_client_info": {
+          "package_name": "com.example.reza.kantingriyanafans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13210898453-ujd10ntoop57ul62nesibi7r7fil3nkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reza.kantingriyanafans",
+            "certificate_hash": "95549f34c3b1f6ed1c3113606d042af22abb7475"
+          }
+        },
+        {
+          "client_id": "13210898453-iprenbfqoa3ocfm1nt8j192c96qc01ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx9OeQDCnttm3M-979s3-qifhxYfFbg_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13210898453-iprenbfqoa3ocfm1nt8j192c96qc01ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

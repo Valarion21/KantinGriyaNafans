@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketentuan Kantin Griya Nafans"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:id="@+id/judul"
+        android:paddingTop="20dp"
+        android:gravity="center"/>
+    <ScrollView
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kemana pesanan akan diantar ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Pesanan akan di antarkan ke kamar sesuai dengan no kamar yang telah didaftarkan."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara untuk melakukan pembayaran ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Pembayaran dilakukan secara langsung ketika pesanan sudah diantarkan ke kamar."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apa yang harus dilakukan terhadap piring dan gelas setelah selesai makan dan minum ?"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Setelah makan dan minum untuk piring dan gelas yang sudah digunakan diletakkan diluar kamar."/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#9f9f9f"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
